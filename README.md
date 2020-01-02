@@ -1,2 +1,2 @@
 # kiapanahi.github.io
-Personal bloh
+Personal blog
