@@ -1,0 +1,59 @@
+baseURL: https://kiapanahi.github.io/
+publishdir: docs
+languageCode: en-us
+theme: PaperMod
+title: The Wannabe Geek
+params:
+  env: production
+  author: Kia
+  keywords: [blog, software, code, geek, programming, problem solving]
+  homeInfoParams:
+    Title: Hi there!!
+    Content: this is the content of home info...
+  profileMode:
+    enabled: false
+    title: "Kia Panahi Rad"
+    subtitle: "Curious dev."
+    buttons:
+      - name: Archives
+        url: "/archives"
+  socialIcons:
+    - name: "Twitter"
+      url: "https://twitter.com/@KiaPanahiRad"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/kiapanahirad/"
+    - name: "GitHub"
+      url: "https://github.com/kiapanahi"
+    - name: "StackOverflow"
+      url: "https://stackoverflow.com/users/2243741/kia-panahi-rad"
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  hideFooter: true
+  editPost:
+    URL: "https://github.com/kiapanahi/kiapanahi.github.io"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: archive
+      name: archives
+      url: /archives
+      weight: 30

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on The Wannabe Geek</title>
+    <link>https://kiapanahi.github.io/tags/</link>
+    <description>Recent content in Tags on The Wannabe Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Jan 2020 02:58:29 +0330</lastBuildDate><atom:link href="https://kiapanahi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>brainfuck</title>
+      <link>https://kiapanahi.github.io/tags/brainfuck/</link>
+      <pubDate>Fri, 03 Jan 2020 02:58:29 +0330</pubDate>
+      
+      <guid>https://kiapanahi.github.io/tags/brainfuck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>esolang</title>
+      <link>https://kiapanahi.github.io/tags/esolang/</link>
+      <pubDate>Fri, 03 Jan 2020 02:58:29 +0330</pubDate>
+      
+      <guid>https://kiapanahi.github.io/tags/esolang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>genesis</title>
+      <link>https://kiapanahi.github.io/tags/genesis/</link>
+      <pubDate>Fri, 03 Jan 2020 02:58:29 +0330</pubDate>
+      
+      <guid>https://kiapanahi.github.io/tags/genesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>helloworld</title>
+      <link>https://kiapanahi.github.io/tags/helloworld/</link>
+      <pubDate>Fri, 03 Jan 2020 02:58:29 +0330</pubDate>
+      
+      <guid>https://kiapanahi.github.io/tags/helloworld/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
