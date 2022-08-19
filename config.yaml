@@ -1,4 +1,5 @@
 baseURL: https://kiapanahi.github.io/
+publishdir: docs
 languageCode: en-us
 theme: PaperMod
 title: The Wannabe Geek
