@@ -36,6 +36,8 @@ params:
     URL: "https://github.com/kiapanahi/kiapanahi.github.io"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
+  assets:
+    disableFingerprinting: true
 
 outputs:
   home:
