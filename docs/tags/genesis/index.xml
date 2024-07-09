@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>genesis on The Wannabe Geek</title>
+    <link>https://kiapanahi.github.io/tags/genesis/</link>
+    <description>Recent content in genesis on The Wannabe Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Jan 2020 02:58:29 +0330</lastBuildDate><atom:link href="https://kiapanahi.github.io/tags/genesis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Genesis</title>
+      <link>https://kiapanahi.github.io/posts/genesis/</link>
+      <pubDate>Fri, 03 Jan 2020 02:58:29 +0330</pubDate>
+      
+      <guid>https://kiapanahi.github.io/posts/genesis/</guid>
+      <description>It&amp;rsquo;s customary to write a Hello World! app when one starts to familiarize oneself with a new language / framework.
+So I&amp;rsquo;ll start my journy with the same approach in the most famous esolang, AKA brainfuck.
+-[-------&amp;gt;+&amp;lt;]&amp;gt;+++.-[---&amp;gt;++++&amp;lt;]&amp;gt;+.[---&amp;gt;+&amp;lt;]&amp;gt;---.[----&amp;gt;+&amp;lt;]&amp;gt;+++.---[-&amp;gt;++++&amp;lt;]&amp;gt;.------------.---.--[---&amp;gt;+&amp;lt;]&amp;gt;-.[-&amp;gt;+++&amp;lt;]&amp;gt;++.++++++++++.+++.--------..++.+++++.-------.-[---&amp;gt;+&amp;lt;]&amp;gt;--.[-&amp;gt;+++&amp;lt;]&amp;gt;++.+++.++.++.+++++.&amp;gt;++++++++++..[-&amp;gt;+++&amp;lt;]&amp;gt;++.--[--&amp;gt;+++&amp;lt;]&amp;gt;.[---&amp;gt;++&amp;lt;]&amp;gt;++.--[--&amp;gt;+++++&amp;lt;]&amp;gt;.-----[--&amp;gt;+++&amp;lt;]&amp;gt;.--------. Oh BTW, you can find the output here.</description>
+    </item>
+    
+  </channel>
+</rss>
