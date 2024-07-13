@@ -1,4 +1,8 @@
-baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'The Curious Dev.'
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+enableInlineShortcodes = true
+enableRobotsTXT = true
+enableEmoji = true
+pygmentsUseClasses = true
+outputs.home = [ "HTML", "RSS", "JSON" ]
+theme = ["PaperMod"]

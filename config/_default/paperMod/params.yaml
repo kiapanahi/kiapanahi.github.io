@@ -1,0 +1,44 @@
+defaultTheme: light
+disableThemeToggle: false
+
+ShowShareButtons: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowCodeCopyButtons: true
+
+displayFullLangName: true
+ShowRssButtonInSectionTermList: true
+ShowAllPagesInArchive: true
+ShowPageNums: true
+ShowToc: true
+
+homeInfoParams:
+  Title: "Kia's Blog"
+  Content: |-
+    A Solutions Architect with a passion for problem-solving and continuous learning.
+    
+    I studied Computer Science and now enjoy challenging myself trying to apply my knowledge to design software solutions.
+
+    I -*occasionally*- use this space to share my takes on technology, personal interests, and the occasional exploration of new ideas.
+
+socialIcons:
+  - name: github
+    title: View Source on Github
+    url: "https://github.com/kiapanahi"
+  - name: X
+    title: Contact me on X/Twitter
+    url: "https://x.com/KiaPanahiRad"
+  - name: Linkedin
+    title: Contact me on LinkedIn
+    url: "https://www.linkedin.com/in/kiapanahirad/"
+
+ShareButtons:
+  - x
+  - linkedin
+  - facebook
+
+editPost:
+  URL: "https://github.com/kiapanahi/kiapanahi.github.io/tree/main/content"
+  Text: "Needs editing?" # edit text
+  appendFilePath: true # to append file path to Edit link
