@@ -6,3 +6,5 @@ enableEmoji = true
 pygmentsUseClasses = true
 outputs.home = [ "HTML", "RSS", "JSON" ]
 theme = ["PaperMod"]
+[taxonomies]
+  tag = 'tags'
