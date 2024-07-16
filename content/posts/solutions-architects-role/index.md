@@ -1,11 +1,21 @@
 ---
 title: "The Path of a Solutions Architect"
 date: 2024-07-14
-draft: true
+draft: false
 tags: ["Solutions Architect", "Software Architect", "Architect", "Career Path", "Technical Leadership"]
+cover:
+  image: sa-header.webp
 ---
 
+
+
 # The Professional Path of a Software Solutions Architect
+
+I've been working in software for more than 12 years now. I've been doing help desk stuff, database management, IT work, networking, low-level and high-level programming, hacking and penetration testing and everything in between. All these experiences and upportunities that I have had, helped me becoming me more well-rounded engineer which is a cruitial attribute to have if one wantes to embark on the mission to becoming an architect, specially a Solutions Architect.
+
+But who is a Solutions Architect exactly?
+
+In this post, we'll briefly go over what I gathered to be the attributes of a good solutions architect...
 
 ## Introduction
 
