@@ -1,8 +1,7 @@
 ---
-title: "Search"
-layout: "search"
-url: "/search"
-# description: "Search in posts"
-# summary: "search"
-placeholder: "Start typing to show results"
+title: "Search" # in any language you want
+layout: "search" # necessary for search
+description: "Find posts"
+summary: "search"
+placeholder: "Type to start searching"
 ---

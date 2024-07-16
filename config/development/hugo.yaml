@@ -1,0 +1,5 @@
+baseURL: "http://localhost:1313/"
+params:
+  env: development
+  homeInfoParams:
+    Title: "Kia's Blog (DEVEL)"
