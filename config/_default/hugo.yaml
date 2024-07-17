@@ -156,3 +156,5 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
+  googleAnalytics:
+    ID: G-RG214ZQLSP
