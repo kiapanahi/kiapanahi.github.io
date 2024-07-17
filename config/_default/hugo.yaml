@@ -95,8 +95,9 @@ params:
   # iconHeight: 35
 
   analytics:
-      google:
-          SiteVerificationTag: "G-RG214ZQLSP"
+    google:
+      SiteVerificationTag: "G-RG214ZQLSP"
+  googleAnalytics: "G-RG214ZQLSP"
 
   assets:
     disableHLJS: true
