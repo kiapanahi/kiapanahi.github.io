@@ -1,7 +1,7 @@
 ---
 title: "Navigating the Unknown: How to approach a new and unfamiliar codebase"
 date: 2024-08-08
-tags: ["programming", "investigation", "code-analysis", "architecture"]
+tags: ["programming", "investigation", "code-analysis", "investigation"]
 cover:
   image: header.webp
 ---
