@@ -64,8 +64,14 @@ params:
     Title: "Kia's Blog"
     Content: |-
       A Solutions Architect with a passion for problem-solving and continuous learning.
+
       I studied Computer Science and now enjoy challenging myself trying to apply my knowledge to design software solutions.
+
       I -*occasionally*- use this space to share my takes on technology, personal interests, and the occasional exploration of new ideas.
+
+      In my day job I act as the Principal software engineer at [Snapp! Market](https://snapp.express/) and *some* of the posts written here are inspired by the challenges I face at work.
+
+      And yes, almost all of the artwork on this blog is generated with *ChatGPT*'s assistance.
 
   socialIcons:
     - name: github
