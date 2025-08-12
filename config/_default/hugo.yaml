@@ -1,6 +1,6 @@
 title: "The Curious Dev."
 copyright: "© Kia Raad"
-paginate: 5
+pagination.pagerSize: 5
 theme: [PaperMod]
 
 enableInlineShortcodes: true
@@ -69,7 +69,7 @@ params:
 
       I -*occasionally*- use this space to share my takes on technology, personal interests, and the occasional exploration of new ideas.
 
-      In my day job I act as the Principal software engineer at [Snapp! Market](https://snapp.express/) and *some* of the posts written here are inspired by the challenges I face at work.
+      In my day job I act as the VP of Engineering at [Toman](https://tomanpay.net/) and *some* of the posts written here are inspired by the challenges I face at work.
 
       And yes, almost all of the artwork on this blog is generated with *ChatGPT*'s assistance.
 
