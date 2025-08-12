@@ -1,10 +1,9 @@
----
-title: "Data Platform Engineer vs Data Engineer: Same River, Different Boats"
-date: 2025-08-13
-tags: ["data-engineer", "data-platform-engineer"]
-cover:
-  image: header.png
----
++++
+title = "Data Platform Engineer vs Data Engineer: Same River, Different Boats"
+date = 2025-08-13T00:48:13+03:30
+tags = ["data-engineer", "data-platform-engineer"]
+cover.image = "header.png"
++++
 
 > **One line that rarely fails:** *Data Platform Engineers build the river and its locks; Data Engineers pilot the boats that carry business value down that river.*
 
@@ -19,8 +18,6 @@ That’s the relationship between **Data Platform Engineering** and **Data Engin
 
 Same building, different responsibilities. And everything falls apart if one side fails the other.
 
----
-
 ## What “platform” really means (beyond “we run Kafka”)
 
 A good platform is more than a list of technologies. It’s a **product** with an opinionated developer experience:
@@ -33,8 +30,6 @@ A good platform is more than a list of technologies. It’s a **product** with a
 
 When a platform is treated like a product, Data Engineers stop being part-time plumbers and get back to building the things the business actually uses.
 
----
-
 ## A day in the life: the marketing “next-best-action” pipeline
 
 A retailer wants near-real-time offers when a user opens the app.
@@ -43,8 +38,6 @@ A retailer wants near-real-time offers when a user opens the app.
 * **Data side**: Engineers encode business logic - join clickstream with catalog and eligibility rules, compute features, materialize a “customer\_context” table every minute, and expose a Looker/PowerBI model for marketing. They write tests that catch drift and missing joins before stakeholders do.
 
 If the offer falls behind by ten minutes, both roles swarm the problem - but they debug different layers. Platform looks at partitions, lag, broker health, or a mis-sized consumer group. Data investigates a wrongly filtered join or a slow UDF. Same incident, different levers.
-
----
 
 ## Skills: different toolboxes, shared craftsmanship
 
@@ -58,8 +51,6 @@ They live where **data meets business**: advanced SQL, model design (dimensional
 
 The overlap? Both write code, both instrument their work, both care about SLAs and data quality. Both know that a green pipeline with a wrong number is still a failure.
 
----
-
 ## Where they differ (without turning it into a scorecard)
 
 * **Primary customer**: Platform’s customer is the **data engineer and analyst**; Data Engineering’s customer is the **business** (product, finance, operations).
@@ -68,8 +59,6 @@ The overlap? Both write code, both instrument their work, both care about SLAs a
 * **Ownership at the seam**: Platform owns **how** data moves (contracts, reliability, security). Data Engineering owns **what** the data means (business semantics, quality rules, transformations).
 
 Neither is “more senior” than the other; they’re orthogonal specialties.
-
----
 
 ## Collaboration ritual: the contract at the seam
 
@@ -81,8 +70,6 @@ Great organizations make the seam explicit:
 
 When this contract exists, platform roadmaps align to real bottlenecks, and data engineering backlogs stop filling with undifferentiated plumbing work.
 
----
-
 ## Career paths (and cross-pollination)
 
 A **Data Platform Engineer** typically moves from building a component, to owning a domain (streaming, storage, APIs), to designing the platform’s architecture, and eventually into principal/lead roles shaping standards and strategy.
@@ -90,8 +77,6 @@ A **Data Platform Engineer** typically moves from building a component, to ownin
 A **Data Engineer** typically moves from basic pipelines and reports, to owning business-line analytics, to setting BI strategy across domains, to principal roles where they define canonical metrics and cross-company insights - or into management partnering closely with product.
 
 Crossing over is healthy. Platform folks who spend a year building data products return with sharper empathy for developer experience. Data Engineers who spend time hardening a streaming substrate return with better failure-mode thinking and a keener sense for constraints.
-
----
 
 ## How success is measured (in practice, not slides)
 
@@ -105,8 +90,6 @@ You can smell a healthy setup from the metrics people quietly track:
 
 Numbers change company to company, but the shape of success doesn’t.
 
----
-
 ## Anti-patterns to watch for (as short vignettes)
 
 * **The Phantom Platform**: A “platform” that is a wiki page and a bucket. Result: Data Engineers build one-off pipelines with bespoke IAM, drifting schemas, and no lineage. The team moves, but the tech debt compounds.
@@ -114,8 +97,6 @@ Numbers change company to company, but the shape of success doesn’t.
 * **The Data Team as IT**: Data Engineers spend 70% of time firefighting infra incidents or hand-managing permissions. Result: business questions wait; trust erodes.
 
 Healthy cultures treat the platform as a product and the data as a product.
-
----
 
 ## The tools aren’t the point - but they matter
 
@@ -125,8 +106,6 @@ Names differ by stack, but the pattern repeats:
 * Data Engineering will live in **SQL**, **dbt/Airflow/Dagster**, **Python**, **BI tools** (Tableau/PowerBI/Looker), and the messy beauty of **domain modeling**. They’ll define KPIs, write tests, and keep semantics stable as businesses evolve.
 
 The moment either side forgets who they serve, tools become toys. When they remember, tools become leverage.
-
----
 
 ## Do you need both?
 
