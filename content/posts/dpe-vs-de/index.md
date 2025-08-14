@@ -1,6 +1,6 @@
 +++
 title = "Data Platform Engineer vs Data Engineer: Same River, Different Boats"
-date = 2025-08-13T00:48:13+03:30
+date = 2025-06-13T00:48:13+03:30
 tags = ["data-engineer", "data-platform-engineer"]
 cover.image = "header.png"
 +++
