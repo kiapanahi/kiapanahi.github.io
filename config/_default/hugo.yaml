@@ -6,8 +6,7 @@ theme: [PaperMod]
 enableInlineShortcodes: true
 enableRobotsTXT: true
 enableEmoji: true
-pygmentsUseClasses: true
-mainsections: ["posts"]
+mainSections: ["posts"]
 
 minify:
   disableXML: true
@@ -19,6 +18,7 @@ languages:
     weight: 1
     taxonomies:
       tag: tags
+      category: categories
     menu:
       main:
         - name: Archive
@@ -103,7 +103,6 @@ params:
   analytics:
     google:
       SiteVerificationTag: "G-RG214ZQLSP"
-  googleAnalytics: "G-RG214ZQLSP"
 
   assets:
     disableHLJS: true
@@ -160,7 +159,7 @@ markup:
 services:
   instagram:
     disableInlineCSS: true
-  twitter:
+  x:
     disableInlineCSS: true
   googleAnalytics:
     ID: G-RG214ZQLSP

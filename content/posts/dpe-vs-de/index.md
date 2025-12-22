@@ -1,9 +1,11 @@
-+++
-title = "Data Platform Engineer vs Data Engineer: Same River, Different Boats"
-date = 2025-06-13T00:48:13+03:30
-tags = ["data-engineer", "data-platform-engineer"]
-cover.image = "header.png"
-+++
+---
+title: "Data Platform Engineer vs Data Engineer: Same River, Different Boats"
+date: 2025-06-13T00:48:13+03:30
+tags: ["data-engineer", "data-platform-engineer"]
+cover:
+  image: header.png
+  relative: true
+---
 
 > **One line that rarely fails:** *Data Platform Engineers build the river and its locks; Data Engineers pilot the boats that carry business value down that river.*
 
