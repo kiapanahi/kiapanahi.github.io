@@ -1,8 +1,9 @@
 ---
 title: "DDD in Real Life: what it is, what it isn't, and when to reach for it"
 date: 2025-10-03T09:00:00+02:00
-tags: ["domain-driven-design", "architecture", "dotnet", "system-design"]
-description: "A plain-spoken field guide to DDD: a simple definition, what it's not, where it sits among architectures, and concrete moments to use - or skip - it."
+tags: ["domain-driven-design", "architecture", "dotnet", "system-design", "bounded-contexts"]
+categories: ["Architecture", "Domain-Driven Design"]
+description: "A field guide to DDD in practice: what it is, what it isn't, how it pairs with common architectures, and when to apply—or skip—it in real systems."
 cover:
   image: header.png
   relative: true

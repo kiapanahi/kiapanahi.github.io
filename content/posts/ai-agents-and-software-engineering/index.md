@@ -1,14 +1,14 @@
 ---
 title: "When Specs Become the Interface: Notes from a Talk on Spec-Driven Development and Agentic Frameworks"
 date: 2025-12-23
-tags: ["ai", "agents", "github", "spec-driven-development", "product", "software-engineering"]
-description: "A story about trying GitHub's Spec Kit, watching \"vibe coding\" grow up, and why skipping the IDE is not the flex some people think it is."
+tags: ["ai", "agents", "github", "spec-kit", "spec-driven-development", "copilot", "software-engineering"]
+categories: ["AI", "Software Engineering"]
+description: "Lessons from trying GitHub Spec Kit: how spec-driven workflows reshape agentic coding, where Copilot fits, and why verification keeps the loop honest."
 cover:
   image: header.png
   relative: true
   caption: "Specs → agents → code (but never without verification)."
   alt: "Spec-driven development meets agentic coding: specs, instructions, and an AI assistant bridging idea to implementation."
-
 ---
 
 A couple of nights ago I caught myself doing something that would've sounded ridiculous just a year ago:
