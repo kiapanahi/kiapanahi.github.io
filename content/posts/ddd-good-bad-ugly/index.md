@@ -1,10 +1,12 @@
-+++
-title = "DDD in Real Life: what it is, what it isn't, and when to reach for it"
-date = 2025-10-03T09:00:00+02:00
-tags = ["domain-driven-design", "architecture", "dotnet", "system-design"]
-description = "A plain-spoken field guide to DDD: a simple definition, what it's not, where it sits among architectures, and concrete moments to use - or skip - it."
-cover.image = "header.png"
-+++
+---
+title: "DDD in Real Life: what it is, what it isn't, and when to reach for it"
+date: 2025-10-03T09:00:00+02:00
+tags: ["domain-driven-design", "architecture", "dotnet", "system-design"]
+description: "A plain-spoken field guide to DDD: a simple definition, what it's not, where it sits among architectures, and concrete moments to use - or skip - it."
+cover:
+  image: header.png
+  relative: true
+---
 
 I was midway through a system-design talk when a familiar question landed:
 

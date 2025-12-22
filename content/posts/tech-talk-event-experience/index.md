@@ -1,10 +1,12 @@
-+++
-title = "A day at Cafe Ertebat: On Seniority, Architecture, and Quiet Value"
-date = 2025-11-18
-tags = ["architecture", "scalability", "leadership", "community"]
-description = "A short story about my experience from the 'Tech Talk' event at Cafe Ertebat, reflecting on seniority, depth in discussions, and the unexpected value of personal connections."
-cover.image = "header.png"
-+++
+---
+title: "A day at Cafe Ertebat: On Seniority, Architecture, and Quiet Value"
+date: 2025-11-18
+tags: ["architecture", "scalability", "leadership", "community"]
+description: "A short story about my experience from the 'Tech Talk' event at Cafe Ertebat, reflecting on seniority, depth in discussions, and the unexpected value of personal connections."
+cover:
+  image: header.png
+  relative: true
+---
 
 A few days ago I attended a small, invite-only tech gathering hosted by [Cafe Ertebat](https://www.linkedin.com/company/cafe-ertebat/).
 Think of it as a low-key salon: about a couple dozen people, all of them with at least a decade of experience, almost all with shiny titles: CTOs, VPs of Engineering, technical leads, founders.
