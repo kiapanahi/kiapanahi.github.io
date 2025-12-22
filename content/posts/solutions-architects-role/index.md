@@ -2,9 +2,12 @@
 title: "Becoming a Solutions Architect"
 date: 2024-07-14
 draft: false
-tags: ["Solutions Architect", "Software Architect", "Architect", "Career Path", "Technical Leadership"]
+tags: ["solutions-architect", "software-architect", "architecture", "career-path", "technical-leadership"]
+categories: ["Architecture", "Career"]
+description: "A comprehensive guide to becoming a Solutions Architect, covering required expertise, responsibilities, and the professional path from developer to architect."
 cover:
   image: sa-header.webp
+  relative: true
 ---
 
 

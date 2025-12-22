@@ -1,9 +1,12 @@
 ---
 title: "Contributing to the Linux Kernel: A Practical Roadmap"
 date: 2024-11-03
-tags: ["oss", "foss", "linux", "kernel", "contribution", "c", "os", "operating-systems", "development"]
+tags: ["open-source", "linux", "kernel", "c", "operating-systems", "development"]
+categories: ["Open Source", "Development"]
+description: "A practical guide for developers looking to contribute to the Linux kernel, covering fundamentals, setup, and the path to your first meaningful contribution."
 cover:
   image: header.webp
+  relative: true
 ---
 
 ## Preface
