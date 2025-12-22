@@ -1,9 +1,12 @@
 ---
 title: "Comparing Change Logs and Event Sourcing: Choosing the Right Approach for Your System"
 date: 2024-10-01
-tags: ["architecture", "change log", "audit log", "event sourcing"]
+tags: ["architecture", "event-sourcing", "audit-log", "system-design"]
+categories: ["Architecture"]
+description: "A practical comparison of change logs and event sourcing patterns, with guidance on choosing the right approach based on your system's needs."
 cover:
   image: header.webp
+  relative: true
 ---
 
 **Introduction**

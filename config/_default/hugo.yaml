@@ -24,13 +24,16 @@ languages:
     menu:
       main:
         - name: Archive
-          url: archives/
+          url: /archives/
           weight: 10
         - name: Search
-          url: search/
+          url: /search/
           weight: 20
+        - name: Categories
+          url: /categories/
+          weight: 25
         - name: Tags
-          url: tags/
+          url: /tags/
           weight: 30
         - identifier: github
           name: "Github"
