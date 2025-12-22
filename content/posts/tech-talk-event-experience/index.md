@@ -1,8 +1,9 @@
 ---
 title: "A day at Cafe Ertebat: On Seniority, Architecture, and Quiet Value"
 date: 2025-11-18
-tags: ["architecture", "scalability", "leadership", "community"]
-description: "A short story about my experience from the 'Tech Talk' event at Cafe Ertebat, reflecting on seniority, depth in discussions, and the unexpected value of personal connections."
+tags: ["architecture", "scalability", "leadership", "community", "career"]
+categories: ["Leadership", "Architecture", "Career"]
+description: "Notes from an invite-only tech salon: what 'senior' really felt like, how shallow debates differ from deep one-on-ones, and why quiet connections mattered most."
 cover:
   image: header.png
   relative: true
