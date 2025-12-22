@@ -29,6 +29,9 @@ languages:
         - name: Search
           url: search/
           weight: 20
+        - name: Categories
+          url: categories/
+          weight: 25
         - name: Tags
           url: tags/
           weight: 30
