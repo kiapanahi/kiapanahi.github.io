@@ -1,7 +1,9 @@
 title: "The Consulting Architect"
 copyright: "© Kia Raad"
 pagination.pagerSize: 5
-theme: [PaperMod]
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
