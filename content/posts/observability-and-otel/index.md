@@ -1,13 +1,14 @@
----
-title: "Observability, OpenTelemetry, and the Quest for Truly Understandable Software"
-date: 2025-03-02
-tags: ["observability", "opentelemetry", "monitoring", "traces", "metrics", "logs"]
-categories: ["Observability", "Software Quality"]
-description: "A deep dive into observability principles and OpenTelemetry's four signals—traces, metrics, logs, and baggage—for building truly understandable distributed systems."
-cover:
-  image: header.webp
-  relative: true
----
++++
+title = "Observability, OpenTelemetry, and the Quest for Truly Understandable Software"
+date = 2025-03-02
+tags = ["observability", "opentelemetry", "monitoring", "traces", "metrics", "logs"]
+categories = ["Observability", "Software Quality"]
+description = "A deep dive into observability principles and OpenTelemetry's four signals—traces, metrics, logs, and baggage—for building truly understandable distributed systems."
+
+[cover]
+  image = "header.webp"
+  relative = true
++++
 
 In the early days of software development, many teams measured the health of their applications through a single lens: logs that printed cryptic messages whenever something went wrong (or occasionally when something went right). Over time, as systems grew more complex and needs broadened, engineers embraced additional approaches, like metrics that could highlight performance trends and spikes. Eventually, logs and metrics alone were no longer enough. Distributed systems, microservices, containers, and orchestrators demanded a whole new way of understanding application behavior. This is how the idea of **Observability** started to take shape—an effort to see right into the beating heart of the system and know exactly what’s going on, without guesswork.
 

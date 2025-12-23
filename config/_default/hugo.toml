@@ -1,0 +1,123 @@
+title = "The Consulting Architect"
+copyright = "© Kia Raad"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+enableEmoji = true
+mainSections = ["posts"]
+
+[pagination]
+  pagerSize = 5
+
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+
+[minify]
+  disableXML = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    [languages.en.taxonomies]
+      tag = "tags"
+      category = "categories"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Archive"
+        url = "/archives/"
+        weight = 10
+      [[languages.en.menu.main]]
+        name = "Search"
+        url = "/search/"
+        weight = 20
+      [[languages.en.menu.main]]
+        name = "Categories"
+        url = "/categories/"
+        weight = 25
+      [[languages.en.menu.main]]
+        name = "Tags"
+        url = "/tags/"
+        weight = 30
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/kiapanahi"
+        weight = 40
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  author = ["Kia Raad"]
+  defaultTheme = "auto"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  displayFullLangName = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  ShowPageNums = true
+  ShowToc = true
+  comments = true
+
+  [params.homeInfoParams]
+    Title = "Kia's Blog"
+    Content = """
+A Solutions Architect with a passion for problem-solving and continuous learning.
+
+I studied Computer Science and now enjoy challenging myself trying to apply my knowledge to design software solutions.
+
+I -*occasionally*- use this space to share my takes on technology, personal interests, and the occasional exploration of new ideas.
+
+In my day job I act as the VP of Engineering at [Toman](https://tomanpay.net/) and *some* of the posts written here are inspired by the challenges I face at work.
+
+And yes, almost all of the artwork on this blog is generated with *ChatGPT*'s assistance.
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    title = "View Source on Github"
+    url = "https://github.com/kiapanahi"
+  [[params.socialIcons]]
+    name = "X"
+    title = "Contact me on X/Twitter"
+    url = "https://x.com/KiaPanahiRad"
+  [[params.socialIcons]]
+    name = "Linkedin"
+    title = "Contact me on LinkedIn"
+    url = "https://www.linkedin.com/in/kiapanahirad/"
+
+  ShareButtons = ["x", "linkedin", "facebook"]
+
+  [params.editPost]
+    URL = "https://github.com/kiapanahi/kiapanahi.github.io/tree/main/content"
+    Text = "Needs editing?"
+    appendFilePath = true
+
+  [params.analytics]
+    [params.analytics.google]
+      SiteVerificationTag = "G-RG214ZQLSP"
+
+  [params.assets]
+    disableHLJS = true
+    favicon = "assets/favicon.ico"
+    favicon16x16 = "assets/favicon-16x16.ico"
+    favicon32x32 = "assets/favicon-32x32.ico"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+  [services.x]
+    disableInlineCSS = true
+  [services.googleAnalytics]
+    ID = "G-RG214ZQLSP"

@@ -1,13 +1,14 @@
----
-title: "Data Platform Engineer vs Data Engineer: Same River, Different Boats"
-date: 2025-06-13T00:48:13+03:30
-tags: ["data-engineering", "data-platform-engineering", "platform-engineering", "analytics"]
-categories: ["Data", "Platform Engineering"]
-description: "A practical contrast between data platform engineers and data engineers—their mandates, toolboxes, customers, and how they partner without tripping each other."
-cover:
-  image: header.png
-  relative: true
----
++++
+title = "Data Platform Engineer vs Data Engineer: Same River, Different Boats"
+date = 2025-06-13T00:48:13+03:30
+tags = ["data-engineering", "data-platform-engineering", "platform-engineering", "analytics"]
+categories = ["Data", "Platform Engineering"]
+description = "A practical contrast between data platform engineers and data engineers—their mandates, toolboxes, customers, and how they partner without tripping each other."
+
+[cover]
+  image = "header.png"
+  relative = true
++++
 
 > **One line that rarely fails:** *Data Platform Engineers build the river and its locks; Data Engineers pilot the boats that carry business value down that river.*
 

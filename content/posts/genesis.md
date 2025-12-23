@@ -1,11 +1,11 @@
----
-title: "Genesis"
-date: 2020-01-03T02:58:29+03:30
-draft: false
-tags: ["programming"]
-categories: ["Development"]
-description: "The inaugural post of the blog, featuring a classic Hello World in brainfuck."
----
++++
+title = "Genesis"
+date = 2020-01-03T02:58:29+03:30
+draft = false
+tags = ["programming"]
+categories = ["Development"]
+description = "The inaugural post of the blog, featuring a classic Hello World in brainfuck."
++++
 
 It's customary to write a `Hello World!` app when one starts to familiarize oneself with a new language / framework.
 

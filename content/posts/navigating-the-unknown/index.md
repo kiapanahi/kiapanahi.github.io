@@ -1,13 +1,14 @@
----
-title: "Navigating the Unknown: How to approach a new and unfamiliar codebase"
-date: 2024-08-08
-tags: ["programming", "code-analysis", "software-quality"]
-categories: ["Development"]
-description: "Strategies for effectively exploring and understanding unfamiliar codebases, from initial assessment to interactive debugging and documentation."
-cover:
-  image: header.webp
-  relative: true
----
++++
+title = "Navigating the Unknown: How to approach a new and unfamiliar codebase"
+date = 2024-08-08
+tags = ["programming", "code-analysis", "software-quality"]
+categories = ["Development"]
+description = "Strategies for effectively exploring and understanding unfamiliar codebases, from initial assessment to interactive debugging and documentation."
+
+[cover]
+  image = "header.webp"
+  relative = true
++++
 
 
 

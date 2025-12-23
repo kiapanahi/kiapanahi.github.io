@@ -1,13 +1,14 @@
----
-title: "Contributing to the Linux Kernel: A Practical Roadmap"
-date: 2024-11-03
-tags: ["open-source", "linux", "kernel", "c", "operating-systems", "development"]
-categories: ["Open Source", "Development"]
-description: "A practical guide for developers looking to contribute to the Linux kernel, covering fundamentals, setup, and the path to your first meaningful contribution."
-cover:
-  image: header.webp
-  relative: true
----
++++
+title = "Contributing to the Linux Kernel: A Practical Roadmap"
+date = 2024-11-03
+tags = ["open-source", "linux", "kernel", "c", "operating-systems", "development"]
+categories = ["Open Source", "Development"]
+description = "A practical guide for developers looking to contribute to the Linux kernel, covering fundamentals, setup, and the path to your first meaningful contribution."
+
+[cover]
+  image = "header.webp"
+  relative = true
++++
 
 ## Preface
 

@@ -1,0 +1,8 @@
+baseURL = "http://localhost:1313/"
+buildFuture = true
+buildDrafts = true
+
+[params]
+  env = "development"
+  [params.homeInfoParams]
+    Title = "Kia's Blog (DEVEL)"

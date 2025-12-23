@@ -1,13 +1,14 @@
----
-title: "The Story Behind Distributed Transactions: Choreography vs. Orchestration"
-date: 2025-04-14
-tags: ["microservices", "distributed-systems", "distributed-transactions", "choreography", "orchestration"]
-categories: ["Distributed Systems", "Architecture"]
-description: "Exploring the evolution of distributed transactions from Two-Phase Commit to modern choreography and orchestration patterns in microservices."
-cover:
-  image: header.png
-  relative: true
----
++++
+title = "The Story Behind Distributed Transactions: Choreography vs. Orchestration"
+date = 2025-04-14
+tags = ["microservices", "distributed-systems", "distributed-transactions", "choreography", "orchestration"]
+categories = ["Distributed Systems", "Architecture"]
+description = "Exploring the evolution of distributed transactions from Two-Phase Commit to modern choreography and orchestration patterns in microservices."
+
+[cover]
+  image = "header.png"
+  relative = true
++++
 
 Microservices architectures promise flexibility, scalability, and agility in software development. But with this flexibility comes significant complexity—especially when managing transactions across multiple, distributed services. Today, let’s talk about the history of distributed transactions, diving deep into two powerful yet contrasting approaches: Choreography and Orchestration.
 

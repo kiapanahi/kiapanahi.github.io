@@ -1,4 +1,0 @@
-baseURL: "https://blog.kiapanahirad.com/"
-buildFuture: true
-params:
-  env: production
