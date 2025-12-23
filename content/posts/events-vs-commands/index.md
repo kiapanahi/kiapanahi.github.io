@@ -1,13 +1,14 @@
----
-title: "Understanding Events, Messages, and Commands in Distributed Systems"
-date: 2024-12-01
-tags: ["events", "commands", "messaging", "microservices", "event-driven-architecture", "distributed-systems"]
-categories: ["Distributed Systems", "Architecture"]
-description: "Exploring the subtle differences between messages, commands, and events in distributed systems through real-world e-commerce examples."
-cover:
-  image: header.webp
-  relative: true
----
++++
+title = "Understanding Events, Messages, and Commands in Distributed Systems"
+date = 2024-12-01
+tags = ["events", "commands", "messaging", "microservices", "event-driven-architecture", "distributed-systems"]
+categories = ["Distributed Systems", "Architecture"]
+description = "Exploring the subtle differences between messages, commands, and events in distributed systems through real-world e-commerce examples."
+
+[cover]
+  image = "header.webp"
+  relative = true
++++
 
 ## TL;DR
 

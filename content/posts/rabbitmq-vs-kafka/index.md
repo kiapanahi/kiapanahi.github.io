@@ -1,13 +1,14 @@
----
-title: "RabbitMQ vs. Kafka: Choosing the Right Backbone for Your Event-Driven System"
-date: 2024-12-31
-tags: ["event-driven-architecture", "microservices", "kafka", "rabbitmq", "messaging"]
-categories: ["Distributed Systems", "Architecture"]
-description: "A practical comparison of RabbitMQ and Kafka for event-driven architectures, exploring queue-based vs. event-log approaches and when to choose each."
-cover:
-  image: header.webp
-  relative: true
----
++++
+title = "RabbitMQ vs. Kafka: Choosing the Right Backbone for Your Event-Driven System"
+date = 2024-12-31
+tags = ["event-driven-architecture", "microservices", "kafka", "rabbitmq", "messaging"]
+categories = ["Distributed Systems", "Architecture"]
+description = "A practical comparison of RabbitMQ and Kafka for event-driven architectures, exploring queue-based vs. event-log approaches and when to choose each."
+
+[cover]
+  image = "header.webp"
+  relative = true
++++
 
 The day I first heard about event-driven architectures, I imagined a busy marketplace where each stall (service) would broadcast its daily specials (events), waiting for eager passersby (consumers) to snap up the deals. Over time, that humble metaphor soon expanded into real-world engineering decisions: do I rely on a queue-based system like RabbitMQ, or do I step into the realm of event logs with Kafka? Let’s explore these two messaging heavyweights and see why choosing between them often comes down to more than just performance metrics.
 
