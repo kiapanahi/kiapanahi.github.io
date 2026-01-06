@@ -13,15 +13,15 @@ description = "How I built a high-performance IP geolocation service using radix
 
 ## Story behind this blog post
 
-A couple of months ago, a friend of mine approached with with a challenging problem: build a service that can identify Iranian ISPs from IP addresses at extreme scale. The requirements were brutal: Around 500,000 requests per second with P99 latency under 5 milliseconds. As a reference for the data load, Iran has about 10,000,000 (Ten Million) IPs allocated across roughly 50,000 CIDR ranges and the system was gonna be in the hot path of a veryu high-load environment.
+A couple of months ago, a friend of mine approached me with a challenging problem: building a service that can identify Iranian ISPs from IP addresses at an extreme scale. The requirements were brutal: around 500,000 requests per second with a P99 latency of under 5 milliseconds. As a reference for the data load, Iran has about 10,000,000 (Ten Million) IPs allocated across roughly 50,000 CIDR ranges, and the system was gonna be in the hot path of a very high-load environment.
 
-So this is the story of how data structure, careful profiling and modern .NET capabilities came together for me to build Shenas (شناس - "identifier" in Persian), a high-performance IP geolocation service using radix trees, modern .NET 10 features, and a strict adherence to performance principles to meet these demanding requirements.
+So this is the story of how data structure, careful profiling, and modern .NET capabilities came together for me to build Shenas (شناس - "identifier" in Persian), a high-performance IP geolocation service using radix trees, modern .NET 10 features, and a strict adherence to performance principles to meet these demanding requirements.
 
 But the more important takeaway is this: **No matter how good the AI coding agents are getting, you need to *solve* the problem yourself.** Understanding the problem space, choosing the right data structures, and measuring performance are skills that no AI can replace.
 
 ### The Problem Space
 
-The use case is straightforward: given an IP address, determine which Iranian ISP owns it. If the IP isn't in any Iranian CIDR range, mark it as "foreign." The response model needed to be extensible. For example, think latitude/longitude fields added later without breaking existing clients.
+The use case is straightforward: given an IP address, determine which Iranian ISP owns it. If the IP isn't in any Iranian CIDR range, mark it as "foreign." The response model needed to be extensible. For example, think of latitude/longitude fields added later without breaking existing clients.
 
 What made this interesting wasn't the domain logic (it's a lookup), but the constraints:
 
@@ -35,7 +35,7 @@ These numbers meant every microsecond mattered. There was no room for sloppy alg
 
 ### The Radix Tree: Why Hash Tables Don't Cut It
 
-My first instinct was to reach for `Dictionary<string, IspInfo>` and call it a day. Parse the IP, iterate through CIDR ranges, check if the IP falls within each range. Simple. Elegant. **Catastrophically slow.**
+My first instinct was to reach for `Dictionary<string, IspInfo>` and call it a day. Parse the IP, iterate through CIDR ranges, and check if the IP falls within each range. Simple. Elegant. **Catastrophically slow.**
 
 A quick back-of-envelope calculations show that `50,000 CIDR ranges x 500K req/s = 25 billion!!` range checks per second. Even with `O(1)` hash lookups, we'd need `O(n)` iteration to find which range contains an IP. At `~10-50μs` per lookup, we'd blow the latency budget before HTTP serialization even started.
 
@@ -43,7 +43,7 @@ I evaluated four data structures:
 
 #### Hash Table with Linear Scan: O(n)
 
-The naive approach. For each IP lookup, iterate all CIDR ranges checking if the IP falls within each. With 50K ranges, this means 50K comparisons per request. **Estimated latency: 10-50μs per lookup.** Unacceptable.
+The naive approach. For each IP lookup, iterate over all CIDR ranges checking if the IP falls within each. With 50K ranges, this means 50K comparisons per request. **Estimated latency: 10-50μs per lookup.** Unacceptable.
 
 #### Interval Tree: O(log n + k)
 
@@ -75,8 +75,8 @@ Here's the algorithm:
 
 **Search** (`192.168.1.100`):
 1. Convert `192.168.1.100` to `uint32`: `3232235876`
-2. Traverse tree bit by bit:
-   - At each node marked as a CIDR endpoint, record as potential match
+2. Traverse the tree bit by bit:
+   - At each node marked as a CIDR endpoint, record it as a potential match
    - Continue until no matching child node exists
 3. Return the **last (most specific) match** found
 
@@ -210,7 +210,7 @@ builder.Services.AddOpenTelemetry()
 
 #### Strategy 2: Selective Sampling
 
-Not every request needs a trace. For distributed tracing, we sample based on the `traceparent` header (W3C Trace Context standard). If upstream services already started a trace, we continue it. Otherwise, we sample at a configurable rate (e.g., 10% in production).
+Not every request needs a trace. For distributed tracing, we sample based on the `traceparent` header (W3C Trace Context standard). If upstream services have already started a trace, we continue it. Otherwise, we sample at a configurable rate (e.g., 10% in production).
 
 #### Strategy 3: Minimal Enrichment
 
@@ -384,7 +384,7 @@ The 5ms latency requirement forced me to think deeply about every allocation, ev
 
 ### What's Next
 
-The service is in production handling real traffic. Next steps:
+The service is in production, handling real traffic. Next steps:
 
 - **IPv6 support**: Extend radix tree to handle 128-bit addresses
 - **Geographic tagging**: Add lat/long fields using GeoIP data
