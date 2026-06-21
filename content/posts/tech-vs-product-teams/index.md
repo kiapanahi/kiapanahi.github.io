@@ -86,7 +86,7 @@ That's a remarkable omission in this particular year, because AI is doing someth
 
 The funny thing is that the room was *circling* the consequence without naming the cause. When building gets cheaper, the scarce resource becomes clarity, judgment, and taste - knowing *which* thing to build and being able to tell good from plausible. That's the same conclusion I landed on writing about spec-driven development: engineering gets more editorial, product gets more experimental, and the specification becomes the handshake between them. The tech-product conversation we should be having isn't "who gets to decide." It's "what does this collaboration even look like when the cost of a wrong build drops by an order of magnitude." Nobody put that on the table. I wish I'd pushed harder to.
 
-## What I'm taking away
+## What I walked out with
 
 It would be easy to end this as a cynical post - *the room didn't get it, the senior crowd is shallow.* These were supposedly capable people describing real pain. However, what they were missing was vocabulary. A shared way to name what's actually going on so the conversation can go one layer deeper than the war stories.
 
