@@ -1,19 +1,18 @@
 +++
 title = "Peers or Laborers? Notes from a Talk on Tech, Product, and What Nobody Said"
 date = 2026-06-21
-draft = true
 tags = ["product", "engineering", "leadership", "tech-debt", "collaboration", "ai", "career"]
 categories = ["Leadership", "Career"]
-description = "Notes from a salon on the tech–product divide: why tech debt is a discipline not a permission slip, the contradiction of wanting peer standing with a laborer's posture, project vs. product, roles over positions, and the AI elephant nobody let in the room."
+description = "Notes from a salon on the tech & product divide: why tech debt is a discipline not a permission slip, the contradiction of wanting peer standing with a laborer's posture, project vs. product, roles over positions, and the AI elephant nobody let in the room."
 
 [cover]
-  image = ""
+  image = "header.png"
   relative = true
 +++
 
 A few nights ago I found myself in another one of those rooms.
 
-Same shape as the last one I wrote about: a circle of experienced people, a topic on a slide, coffee slowly going cold. This time the subject was the relationship between **tech and product teams** - specifically, the friction in how they communicate, and why the two so often end up talking past each other.
+Same shape as the last one I wrote about: a circle of experienced people, a general topic and coffee and networking breaks. This time the subject was the relationship between tech and product teams; specifically, the friction in how they communicate, and why the two so often end up talking past each other.
 
 It's a good topic. It's also a trap. Everyone in a room like that has a war story, and war stories are easy to tell and very hard to learn from. So we told them. And somewhere between the third and fourth anecdote, I started noticing the things we *weren't* saying - which, as usual, turned out to be the interesting part.
 
@@ -59,9 +58,9 @@ The way out isn't to retreat. It's to **choose your mode and pay its price.** If
 
 Somewhere in there I made a point that I think slid past the room, so let me make it properly here: **project management and product management are different crafts.**
 
-Product is *what* and *why*. The outcome. The bet. The decision about which problems are worth solving and which to leave on the floor. Project is *how* and *when*. The coordination, the sequencing, the delivery, the unglamorous work of getting a thing across the line with the people and time you actually have.
+Product is *what* and *why*. It is the outcome or the thing we bet on. The decision about which problems are worth solving and which to leave on the floor. Project is *how* and *when*. The coordination, the sequencing, the delivery, the unglamorous work of getting a thing across the line with the people and time you actually have.
 
-We routinely stuff both into one human, label them "the PM," and then act surprised when the seams show - when the person who's brilliant at delivery keeps shipping things nobody needed, or the person with razor-sharp product instincts can't get a release out the door. These are two skill sets. Sometimes they live in one person; often they don't. Naming them separately is the first step to staffing them honestly.
+We usually stuff both into one human, label them "the PM," and then act surprised when the seams show - when the person who's brilliant at delivery keeps shipping things nobody needed, or the person with razor-sharp product instincts can't get a release out the door. These are two skill sets. Sometimes they live in one person; often they don't. Naming them separately is the first step to staffing them honestly.
 
 ## Roles, not positions
 
@@ -89,15 +88,7 @@ The funny thing is that the room was *circling* the consequence without naming t
 
 ## What I'm taking away
 
-If I compress the night into a few notes to myself:
-
-- **Tech debt is a discipline, not a permission slip.** If your only repayment plan needs product's blessing, you don't have a plan - you have a grievance. Pay it down continuously, in every PR.
-- **If you want to be a peer, carry a peer's accountability** - and stop asking for an allowance to exercise your own judgment. Pick your mode and pay its price.
-- **Project and product are two crafts.** Name them separately, staff them honestly.
-- **Argue about roles, not positions.** The turf war evaporates when the question becomes "what does the work need right now?"
-- **Put AI on the table.** It's already rearranging the furniture; pretending otherwise just means you'll be surprised by your own room.
-
-It would be easy to end this as a cynical post - *the room didn't get it, the senior crowd is shallow.* I don't believe that, and I've caught myself reaching for that cheap ending before. These were capable people describing real pain. What they were missing wasn't intelligence; it was vocabulary - a shared way to name what's actually going on so the conversation can go one layer deeper than the war stories.
+It would be easy to end this as a cynical post - *the room didn't get it, the senior crowd is shallow.* These were supposedly capable people describing real pain. However, what they were missing was vocabulary. A shared way to name what's actually going on so the conversation can go one layer deeper than the war stories.
 
 So maybe the honest takeaway is the one I keep relearning at these things: the value isn't in winning the room. It's in leaving with a better question than you walked in with.
 
